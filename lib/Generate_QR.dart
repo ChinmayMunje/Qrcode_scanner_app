@@ -45,10 +45,10 @@ class _GenerateQRState extends State<GenerateQR> {
                         });
                       }
                     },
-                    child: Text("Generate QR Code",style: TextStyle(color: Colors.indigo[900],),),
+                    child: Text("Generate QR Code",style: TextStyle(color: Colors.green,),),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
-                    side: BorderSide(color: Colors.indigo[900]),
+                    side: BorderSide(color: Colors.green),
                   ),
                 ),
               ),

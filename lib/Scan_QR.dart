@@ -46,9 +46,9 @@ class _ScanQRState extends State<ScanQR> {
             qrCodeResult = codeSanner;
           });
         },
-        child: Text("Open Scanner",style: TextStyle(color: Colors.indigo[900]),),
+        child: Text("Open Scanner",style: TextStyle(color: Colors.green),),
         shape: RoundedRectangleBorder(
-          side: BorderSide(color: Colors.indigo[900]),
+          side: BorderSide(color: Colors.green),
           borderRadius: BorderRadius.circular(20.0),
         ),
       ),
